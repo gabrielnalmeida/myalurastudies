@@ -118,7 +118,7 @@ body{
     align-items: center;
 }
 
-.menu-lateral__link--active{
+.menu-lateral__link--ativo{
     color: #FFFFFF;
     padding-left: 56px;
     border-left: 8px solid #FFFFFF;
@@ -212,6 +212,8 @@ body{
     background-color: #2C343A;
 }
 
+
+
 .cartao__imagem--desktop{
     display: none;
 }
@@ -282,6 +284,11 @@ body{
 
 .cartao__botao--shop::before{
     content: "\e901";
+    font-size: 24px;
+}
+
+.cartao__botao--local::before{
+    content: "\e908";
     font-size: 24px;
 }
 
