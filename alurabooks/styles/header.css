@@ -13,9 +13,21 @@
     display: inline-block;
 }
 
+.container__botao:checked ~ .container__label > .cabecalho__menu--hamburger{
+    background-image: url("../img/Menu\ Aberto.svg");
+}
+
+.container__botao:checked ~ .container__label{
+    background: var(--azul-degrade);
+}
+
 .container{
     display: flex;
     align-items: center;
+}
+
+.container__titulo{
+    display: none;
 }
 
 .container__imagem{
@@ -23,6 +35,10 @@
 }
 
 .container__botao{
+    display: none;
+}
+
+.opcoes{
     display: none;
 }
 
@@ -54,4 +70,94 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.container__texto{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__titulo,
+    .container__titulo--negrito {
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+    }
+
+    .container__titulo{
+        display: block;
+        font-weight: 400;
+    }
+
+    .container__titulo--negrito{
+        font-weight: 700;
+    }
+
+    .container__imagem--transparente{
+        display: none;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+
+    .opcoes__item{
+        padding: 1em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho__menu--hamburger{
+        display: none;
+    }
+
+    .opcoes__botao{
+        display: none;
+    }
+
+    .opcoes__botao:checked ~ .lista-menu{
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botao:checked ~ .opcoes__item--categorias{
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .lista-menu__item:hover{
+        background: var(--azul-degrade);
+    }
+    
+    .lista-menu__item:hover .lista-menu__link{
+        background: var(--branco);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    
+    .cabecalho{
+        padding: 0 2em;
+    }
+
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+
+    .container__texto{
+        display: block;
+    }
 }
