@@ -1,0 +1,17 @@
+@import url("styles/nav-bar.css");
+
+:root{
+    --fonte-principal: "Inter";
+    --cor-do-paragrafo: #667085;
+    --vermelho-destaque: #8E2424;
+    
+
+}
+
+body{
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
