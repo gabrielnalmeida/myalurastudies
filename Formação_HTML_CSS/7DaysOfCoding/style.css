@@ -1,9 +1,10 @@
 @import url("styles/nav-bar.css");
+@import url("styles/header.css");
 
 :root{
     --fonte-principal: "Inter";
-    --cor-do-paragrafo: #667085;
-    --vermelho-destaque: #8E2424;
+    --cor-do-texto: #667085;
+    --cor-principal: #8E2424;
     
 
 }
