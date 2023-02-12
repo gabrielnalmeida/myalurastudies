@@ -1,6 +1,8 @@
 #nav-bar{
-    display: flex;  
+    display: flex;
     padding-top: 10px;
+    justify-content: space-around;
+    margin: 0 auto;
 }
 
 .nav-logo{
@@ -8,7 +10,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 0 119px 0 160px;
 }
 
 .img-logo{
@@ -28,7 +29,7 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    width: auto;
+    width: auto;    
 }
 
 #nav-item{
@@ -38,7 +39,6 @@
 
 .nav-login {
     display: flex;
-    margin: 0 130px 0 550px;
 }
 
 .nav-entrar{

@@ -1,0 +1,27 @@
+.info-container{
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+}
+
+#info-div{
+    display: block;
+    width: 265px;
+    margin: 0 20px;
+}
+
+#info-div h2{
+    color: var(--cor-principal);
+    font-size: 60px;
+    font-weight: 600;
+    
+}
+
+#info-div span{
+    font-size: 18px;
+    font-weight: 500;   
+}
+
+#info-div p {
+    color: var(--cor-do-texto);
+}
