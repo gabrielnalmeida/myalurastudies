@@ -60,3 +60,46 @@
 .banner img{
     margin-top: 44px;
 }
+
+/*Vagas*/
+
+.vagas{
+    display: grid;
+    justify-content: center;
+}
+
+#titulo-vagas{
+    margin: 64px 0 32px 0;
+    color: var(--cor-texto-vaga);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#vaga{
+    width: 720px;
+    height: 84px;
+    padding: 24px 24px 28px 24px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+#titulo-vaga{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--cor-texto-vaga);
+}
+
+#sobre-vaga{
+    margin-top: 32px;
+    color: var(--cor-do-texto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#salario-vaga{
+    margin-left: 24px;
+}
