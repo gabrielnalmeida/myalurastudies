@@ -103,3 +103,38 @@
 #salario-vaga{
     margin-left: 24px;
 }
+
+/*User Feedback*/
+
+.feedbacks{
+    display: block;
+    background-color: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    margin: 96px auto;
+    justify-content: center;
+    text-align: center;
+    width: 1152px;
+    height: 340px;
+    padding: 64px;
+}
+
+.feedback-txt span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cor-principal);
+}
+
+.feedback-txt h2{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.feedback-user span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cor-do-texto);
+}
