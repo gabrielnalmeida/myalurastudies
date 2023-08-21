@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-
+        <nav class="cabecalho">
+            <ul class="cabecalho__lista">
+                <li class="cabecalho__lista__item"><a href="index.html" class="cabecalho__lista__link">Home</a></li>
+                <li class="cabecalho__lista__item"><a href="./pages/aboutme.html" class="cabecalho__lista__link">Sobre mim</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__container">
@@ -22,14 +23,16 @@
                 Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
             </p>
             <div class = "apresentacao__links">
-                <a id="apresentacao__links_link" href="https://www.instagram.com/gabrielnal">Instagram</a>
-                <a id="apresentacao__links_link" href="https://github.com/gabrielnalmeida">GitHub</a>
+                <h2 class="apresentacao__links__titulo">Acesse minhas redes:</h2>
+                <a id="apresentacao__links_navegacao" href="https://www.linkedin.com/in/gabriel-almeida-157847222/"><i class="fa-brands fa-linkedin-in"></i>Linkedin</a>
+                <a id="apresentacao__links_navegacao" href="https://www.instagram.com/gabrielnal"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a id="apresentacao__links_navegacao" href="https://github.com/gabrielnalmeida"><i class="fa-brands fa-github"></i>GitHub</a>
             </div>
         </section>
-        <img class="my-pic" src="img/yo.png" alt="Foto do desenvolvedor do Portfólio.">
+        <img class="apresentacao__imagem" src="img/Imagem.png" alt="Foto do desenvolvedor do Portfólio.">
     </main>
-    <footer>
-
+    <footer class="rodape">
+        <h3 class="rodape__text">Desenvolvido por Alura</h3>
     </footer>
 </body>
 </html>
