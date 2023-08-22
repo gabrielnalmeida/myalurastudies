@@ -76,6 +76,27 @@
       "url": "https://www.youtube.com/embed/YHpG6t91oW8",
       "imagem": "https://i.ytimg.com/vi_webp/YHpG6t91oW8/maxresdefault.webp",
       "id": 11
+    },
+    {
+      "titulo": "Guia de estudos - ̗̀ BACKEND ̖́-",
+      "descricao": "3 mil visualizações",
+      "url": "https://www.youtube.com/watch?v=LNhslFddZ-k&ab_channel=Bolt",
+      "imagem": "https://blog.back4app.com/wp-content/uploads/2021/06/backend-vs-frontend-2.png",
+      "id": 12
+    },
+    {
+      "titulo": "Guia de estudos - ̗̀ BACKEND ̖́-",
+      "descricao": "9 mil visualizações",
+      "url": "https://youtu.be/embed/LNhslFddZ-k",
+      "imagem": "https://blog.back4app.com/wp-content/uploads/2021/06/backend-vs-frontend-2.png",
+      "id": 13
+    },
+    {
+      "titulo": "Guia de estudos - ̗̀ BACKEND ̖́-",
+      "descricao": "4 mil visualizações",
+      "url": "https://www.youtube.com/embed/LNhslFddZ-k",
+      "imagem": "https://blog.back4app.com/wp-content/uploads/2021/06/backend-vs-frontend-2.png",
+      "id": 14
     }
   ]
 }
